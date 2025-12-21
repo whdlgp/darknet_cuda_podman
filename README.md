@@ -39,6 +39,7 @@ The following fields in `compose.yaml` must be adjusted for your environment:
 ## Issues and Resolutions
 ### Can't Packaging (CPack error)
 * Do not package Darknet and DarkHelp
+  * Run `make` and `make install`. It's OK
 * Built and installed directly from source
 
 ### nvcc warning: Cannot find valid GPU for '-arch=native'
