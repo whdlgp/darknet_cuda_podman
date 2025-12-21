@@ -4,6 +4,13 @@ This repository provides,
 * Podman-based container environment for building and running Darknet with CUDA support
 * A simple Jupyter Notebook for validation.
 
+## Notes
+
+The following fields in `compose.yaml` must be adjusted for your environment:
+* `devices`
+* `ports`
+* `volumes`
+
 ## Specification
 * JupyterLab Server
   * JupyterLab server container for Darknet and DarkHelp testing.
