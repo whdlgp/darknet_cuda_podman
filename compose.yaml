@@ -1,0 +1,14 @@
+services:
+  darknet:
+    build: .
+    image: darknet-jupyter:cuda12.8
+    container_name: darknet_server
+
+    devices:
+      - nvidia.com/gpu=all
+
+    ports:
+      - "8888:8888"
+
+    volumes:
+      - /mnt/e/podman/darknet_workspace:/workspace
