@@ -3,6 +3,7 @@
 This repository provides,
 * Podman-based container environment for building and running Darknet with CUDA support
 * A simple Jupyter Notebook for validation.
+* A Training code for Seaship Dataset
 
 ## Notes
 
