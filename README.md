@@ -37,6 +37,9 @@ The following fields in `compose.yaml` must be adjusted for your environment:
 ### darknet_workspace/darknet_cuda_check.ipynb
 * Jupyter Notebook for verifying the Darknet CUDA build and runtime environment.
 
+### darknet_workspace/train_seaship_dataset.ipynb
+* Jupyter Notebook for training YOLO v4 Tiny with SeaShip dataset.
+
 ## Issues and Resolutions
 ### Can't Packaging (CPack error)
 * Do not package Darknet and DarkHelp
